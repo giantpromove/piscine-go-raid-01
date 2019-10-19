@@ -8,6 +8,7 @@ func Raid1c(x, y int) {
 	s1 := 'A'
 	s2 := 'C'
 	s3 := 'B'
+	if x>=0 && y>=0{
 	if y == 0 {
 		for j := 0; j <= x; j++ {
 			if j == 0 || j == x {
@@ -49,4 +50,5 @@ func Raid1c(x, y int) {
 			z01.PrintRune(10)
 		}
 	}
+}
 }

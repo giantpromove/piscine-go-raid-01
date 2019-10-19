@@ -5,6 +5,7 @@ import "github.com/01-edu/z01"
 func Raid1b(x, y int) {
 	x--
 	y--
+	if x>=0 && y>=0{
 	if y == 0 {
 		for j := 0; j <= x; j++ {
 			if j == 0 {
@@ -48,5 +49,5 @@ func Raid1b(x, y int) {
 			z01.PrintRune(10)
 		}
 	}
-
+}
 }
