@@ -32,7 +32,6 @@ func Raid1e(x, y int) {
 				z01.PrintRune(10)
 			}
 		} else {
-	
 			for i := 0; i <= y; i++ {
 				for j := 0; j <= x; j++ {
 					if i == 0 && j == x ||
